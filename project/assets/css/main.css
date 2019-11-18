@@ -72,6 +72,14 @@ input, select, textarea {
 	appearance: none;
 }
 
+.profilepic {
+	display: flex;
+	justify-content: center;
+	transform: scale(0.5, 0.5);
+	margin-top: -90px;
+	margin-bottom: -100px;
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -2361,7 +2369,8 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
-
+		
+		
 			@media screen and (max-width: 736px) {
 
 				.image.main {
